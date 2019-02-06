@@ -1,0 +1,320 @@
+body, h3, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background: white;
+  color: #222;
+  /*-webkit-font-smoothing: antialiased;*/
+  display: grid;
+  grid-template-columns: 200px minmax(300px, 3fr) 200px;
+  grid-column: 2;
+}
+
+section, footer {
+  grid-column: 2;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.btn-laranja {
+  background: #e68c6e;
+  text-decoration: none;
+  border: none;
+  color: white;
+  width: 80%;
+  height: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+.btn-branco {
+  color: #e68c6e;
+  background: white;
+  border: solid #e68c6e 1px;
+  font-size: 12px;
+  width: 12%;
+  height: 30px;
+  font-family: Helvetica, sans-serif;
+}
+
+.menu {
+  grid-column: 2;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 6rem;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.menu li {
+  display: block;
+  padding: 10px;  
+  color: #222;
+  text-decoration: none;
+  font-family: monospace, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: .875rem;
+  letter-spacing: .1rem;
+}
+
+.menu img {
+  padding-right: 10rem;
+  padding-left: 10rem;
+  height: 1rem;
+  /* border-bottom: #222 solid thin; */
+}
+
+.spring-collection {
+  grid-column: 2;
+  display: flex;
+  background: #d1d1d1;
+  height: 28rem;
+}
+
+.spring-collection h1 {
+  text-transform: uppercase;
+  font-family: monospace, Helvetica, sans-serif;
+  font-size: 70px;
+  margin-top: 0%;
+}
+
+.spring-collection h2 {
+  text-transform: uppercase;
+  font-family: monospace, Helvetica, sans-serif;
+  font-size: 42px;
+  margin-top: -80px;
+}
+
+.spring-collection div {
+  margin-left: 5rem;
+}
+
+#brasao {
+  margin: auto;
+  padding-top: 6rem;
+}
+
+.lorem {
+  text-align: center;
+  margin-top: 5rem;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  background: white;
+}
+
+.lorem h3 {
+  text-transform: uppercase;
+}
+
+.lorem div {
+  width: 60%;
+  height: 11rem;
+  background: #222;
+  color: white;
+  margin: 30px 70px;
+}
+
+#organizer {
+  display: flex;
+  margin-top: 4rem;
+}
+
+#organizer p {
+  margin-top: 10%;
+}
+
+.acessorios h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 3pt;
+  text-align: center;
+}
+
+.acessorios div{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.acessorios figcaption {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.ofertas-verao {
+  text-transform: uppercase;
+  background: #e68c6e;
+  height: 300px;
+}
+
+.ofertas-verao p {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#btn-ofertas-verao {
+    margin-left: 45%;
+    margin-top: 10px;
+}
+
+#ofertas {
+  font-size: 30px;
+  letter-spacing: 22px;
+}
+
+#ofertas-40off {
+  font-weight: bold;
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  letter-spacing: 10px;
+  margin-top: -10px;
+}
+
+.mais-vendidos {
+  background: #222;
+  color: #fff;
+  padding-bottom: 60px;
+}
+
+.mais-vendidos h1 {
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-size: 17px;
+  letter-spacing: 5px;
+}
+
+.mais-vendidos img {
+  width: 100%;
+}
+
+.mais-vendidos button {
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.mais-vendidos h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.separator {
+  margin-left: 8rem;;
+}
+
+.separator div {
+  margin-left: 2rem; 
+  margin-top: 40px;
+  padding-bottom: 1em;
+  background: #fff;
+  color: #222;
+  text-align: center;
+}
+
+.titulo-acessorio {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  color: gray;
+}
+
+.preco-riscado {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size: 70%;
+  color: gray;
+  text-decoration: line-through;
+}
+
+.preco-atual {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+  font-size: 120%;
+  color: #e68c6e;
+}
+
+footer {
+  background: #d1d1d1;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 15px;
+}
+
+footer a {
+  color: #e68c6e;
+  margin-left: 0%;
+}
+
+.social-media {
+  display:  flex;
+  text-align: center;
+  border-top: #fff solid 1px;
+  border-bottom: #fff solid 1px;
+  padding-left: 44.5%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.social-media a + a {
+  margin-left: 20px;
+}
+
+.logoo {
+  margin: auto;
+  padding-top: 2rem;
+}
+
+
+.separator {
+  display:  flex;
+  flex-wrap: wrap;
+}
+
+.copy {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.copy p {
+  text-align: left;
+  margin-left: 10em;
+  color: #7a7272;
+}
+
+.copy a {
+  margin: 15px 6rem;
+}
+
+.copy a + a {
+  margin-left: 0%;
+}
